@@ -1,5 +1,6 @@
 import Container from "../Container"
 import { RiSendPlaneLine } from "react-icons/ri";
+import { MdMenu } from "react-icons/md";
 
 function Header() {
   return (
@@ -24,15 +25,15 @@ function Header() {
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
-          <div className="flex items-center  leading-[18px]">
+          <div className="flex items-center  leading-[18px] gap-4">
             <button className="flex  items-center gap-2 text-[#193256] font-[600] border border-solid 
             border-[#193256] px-4 py-2 rounded hover:bg-[#193256] hover:text-white hover:font-[500]
              ease-in duration-500 ">
-            <RiSendPlaneLine />
-            <p>Let's Talk</p>
+              <RiSendPlaneLine />
+              <p>Let's Talk</p>
             </button>
+            <span className="text-2xl text-[#193256]  md:hidden cursor-pointer "><MdMenu /></span>
           </div>
-
         </div>
       </Container>
     </header>
