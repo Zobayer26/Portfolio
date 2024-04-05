@@ -3,7 +3,7 @@
 export const portfolios = [
   {
     id: "01",
-    imgUrl: "/hero.jpg",
+    imgUrl: "/photo_1.jpg",
     category: "Web Design",
     title: "Finance Technology Website",
     description:
@@ -13,7 +13,7 @@ export const portfolios = [
   },
   {
     id: "02",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_2.jpg",
     category: "Ux",
     title: "Video Conference Website",
     description:
@@ -23,7 +23,7 @@ export const portfolios = [
   },
   {
     id: "03",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_3.jpg",
     category: "Ux",
     title: "Multimedia Sharing Website",
     description:
@@ -33,7 +33,7 @@ export const portfolios = [
   },
   {
     id: "04",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_4.jpg",
     category: "Web Design",
     title: "Landing Page",
     description:
@@ -43,7 +43,7 @@ export const portfolios = [
   },
   {
     id: "05",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_5.jpg",
     category: "Web Design",
     title: "Landing Page",
     description:
@@ -54,7 +54,7 @@ export const portfolios = [
 
   {
     id: "06",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Ux",
     title: "Online Therapy Website",
     description:
@@ -64,7 +64,7 @@ export const portfolios = [
   },
   {
     id: "07",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Web Design",
     title: "Appointment Booking Website",
     description:
@@ -74,7 +74,7 @@ export const portfolios = [
   },
   {
     id: "08",
-    imgUrl:"/hero.jpg",
+    imgUrl:"photo_1.jpg",
     category: "Web Design",
     title: "Finance Technology Website",
     description:
@@ -84,7 +84,7 @@ export const portfolios = [
   },
   {
     id: "09",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Ux",
     title: "Video Conference Website",
     description:
@@ -94,7 +94,7 @@ export const portfolios = [
   },
   {
     id: "10",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Ux",
     title: "File Sharing Website",
     description:
@@ -104,7 +104,7 @@ export const portfolios = [
   },
   {
     id: "11",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Web Design",
     title: "Landing Page",
     description:
@@ -114,7 +114,7 @@ export const portfolios = [
   },
   {
     id: "12",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Web Design",
     title: "Landing Page",
     description:
@@ -124,7 +124,7 @@ export const portfolios = [
   },
   {
     id: "13",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "Web Design",
     title: "Online Therapy Website",
     description:
@@ -134,7 +134,7 @@ export const portfolios = [
   },
   {
     id: "14",
-    imgUrl: "/hero.jpg",
+    imgUrl: "photo_1.jpg",
     category: "ux",
     title: "Appointment Booking Website",
     description:

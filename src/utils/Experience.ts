@@ -32,7 +32,7 @@ export const Experience = [
     {
         id: 4,
         start: 0,
-        end: 10,
+        end: 15,
         duration: 2,
         suffix: "+",
         info: " Project Completed"

@@ -6,7 +6,7 @@ type ContainerType = {
 
 const Container: React.FC<ContainerType> = ({ children }) => {
     return (
-        <div className="w-[1170px] px-5 mx-auto">
+        <div className="lg:w-[1170px] md:w-[800px] sm:w-[550px] w-[400px] px-5 mx-auto">
             {children}
         </div>
     )

@@ -10,7 +10,7 @@ const Hero = () => {
     <section id="about">
       <Container>
         <div className="pt-14">
-          <div className=" flex items-center justify-between sm:flex-col md:flex-row">
+          <div className=" flex flex-col items-center justify-between  md:flex-row">
             <div className="w-full md:basis-1/2">
               <h4 data-aos="fade-right"
                 data-aos-duration="1500"
@@ -60,10 +60,10 @@ const Hero = () => {
               </div>
             </div>
             <div className=" basis-1/3 mt-4 sm:mt-0">
-              {/* <figure className="flex items-center justify-center">
-                <img src="/hero.jpg" alt="" />
-              </figure> */}
-              <img src="/hero.jpg" alt="" />
+              <figure className="flex items-center justify-center">
+                <img src="/Pic.jpg" alt="Zobayer_Hossain"  className=" rounded-md"/>
+              </figure>
+  
             </div>
             <div className=" basis-1/5 flex justify-between text-center mt-4 
             flex-wrap gap-3 md:mt-0 md:flex-col  md:justify-end md:text-end">
