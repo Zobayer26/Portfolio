@@ -17,11 +17,11 @@ const Portfolio = () => {
             setPortfolioData(portfolios)
         }
         if (selectTab === 'web-design') {
-            const filterData = portfolios.filter(item => item.category === 'web Design')
+            const filterData = portfolios.filter(item => item.category === 'Web Design')
             setPortfolioData(filterData)
         }
         if (selectTab === 'ux-design') {
-            const filterData = portfolios.filter(item => item.category === 'UX')
+            const filterData = portfolios.filter(item => item.category === 'Ux')
             setPortfolioData(filterData)
         }
     }, [selectTab])

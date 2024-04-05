@@ -5,7 +5,7 @@ export const portfolios = [
     id: "01",
     imgUrl: "/photo_1.jpg",
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -15,7 +15,7 @@ export const portfolios = [
     id: "02",
     imgUrl: "photo_2.jpg",
     category: "Ux",
-    title: "Video Conference Website",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -25,7 +25,7 @@ export const portfolios = [
     id: "03",
     imgUrl: "photo_3.jpg",
     category: "Ux",
-    title: "Multimedia Sharing Website",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -35,7 +35,7 @@ export const portfolios = [
     id: "04",
     imgUrl: "photo_4.jpg",
     category: "Web Design",
-    title: "Landing Page",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -56,7 +56,7 @@ export const portfolios = [
     id: "06",
     imgUrl: "photo_1.jpg",
     category: "Ux",
-    title: "Online Therapy Website",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -76,7 +76,7 @@ export const portfolios = [
     id: "08",
     imgUrl:"photo_1.jpg",
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -126,7 +126,7 @@ export const portfolios = [
     id: "13",
     imgUrl: "photo_1.jpg",
     category: "Web Design",
-    title: "Online Therapy Website",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -135,8 +135,8 @@ export const portfolios = [
   {
     id: "14",
     imgUrl: "photo_1.jpg",
-    category: "ux",
-    title: "Appointment Booking Website",
+    category: "Ux",
+    title: "Title Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
