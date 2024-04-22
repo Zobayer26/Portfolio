@@ -3,7 +3,7 @@
 export const portfolios = [
   {
     id: "01",
-    imgUrl: "/photo_1.jpg",
+    imgUrl: "/2048 Game.png",
     category: "Web Design",
     title: "Title Website",
     description:
@@ -13,7 +13,7 @@ export const portfolios = [
   },
   {
     id: "02",
-    imgUrl: "photo_2.jpg",
+    imgUrl: "/shopybuz.png",
     category: "Ux",
     title: "Title Website",
     description:
@@ -23,7 +23,7 @@ export const portfolios = [
   },
   {
     id: "03",
-    imgUrl: "photo_3.jpg",
+    imgUrl: "candy_crush.png",
     category: "Ux",
     title: "Title Website",
     description:
@@ -33,7 +33,7 @@ export const portfolios = [
   },
   {
     id: "04",
-    imgUrl: "photo_4.jpg",
+    imgUrl: "to-do.png",
     category: "Web Design",
     title: "Title Website",
     description:
@@ -43,7 +43,7 @@ export const portfolios = [
   },
   {
     id: "05",
-    imgUrl: "photo_5.jpg",
+    imgUrl: "wikirocket.png",
     category: "Web Design",
     title: "Landing Page",
     description:

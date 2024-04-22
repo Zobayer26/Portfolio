@@ -1,6 +1,5 @@
 import Container from "../Container"
 
-
 const Contact = () => {
     return (
         <section id="contact" className=" mt-8">

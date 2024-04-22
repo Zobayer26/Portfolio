@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { portfolios } from "../../utils/PortfolioData"
 import Container from "../Container"
+import Modal from "./Modal"
 
 
 const Portfolio = () => {
@@ -8,10 +9,18 @@ const Portfolio = () => {
     const [nextItems, setNextItems] = useState(6)
     const [portfolioData, setPortfolioData] = useState(portfolios)
     const [selectTab, setSelectTab] = useState<string>('all')
+    const [showModal, setShowModal] = useState(false)
+    const [activeId, setActiveId] = useState('')
+
+
     const HandleLoad = () => {
         setNextItems(prev => prev + 3)
     }
 
+    const showModalHandler = (id:string) => {
+        setShowModal(true)
+        setActiveId(id)
+    }
     useEffect(() => {
         if (selectTab === 'all') {
             setPortfolioData(portfolios)
@@ -33,18 +42,18 @@ const Portfolio = () => {
                         <h3 className=" text-[34px]  text-[#081e21] font-[700]">My Recent projects</h3>
                     </div>
                     <div className="flex gap-3">
-                        <button onClick={()=>setSelectTab('all')}
-                        className="text-[#193256] border border-solid border-[#193256]
+                        <button onClick={() => setSelectTab('all')}
+                            className="text-[#193256] border border-solid border-[#193256]
                          py-2 px-4 rounded hover:bg-[#193256] hover:text-white  ease-in duration-150">All
 
                         </button>
-                        <button onClick={()=>setSelectTab('web-design')}
-                         className="text-[#193256] border border-solid border-[#193256]
+                        <button onClick={() => setSelectTab('web-design')}
+                            className="text-[#193256] border border-solid border-[#193256]
                          py-2 px-4 rounded hover:bg-[#193256] hover:text-white  ease-in duration-150">Web
 
                         </button>
-                        <button onClick={()=>setSelectTab('ux-design')}
-                        className="text-[#193256] border border-solid border-[#193256]
+                        <button onClick={() => setSelectTab('ux-design')}
+                            className="text-[#193256] border border-solid border-[#193256]
                          py-2 px-4 rounded hover:bg-[#193256] hover:text-white ease-in duration-150"> ui/ux
 
                         </button>
@@ -61,7 +70,8 @@ const Portfolio = () => {
                             <div className="w-full h-full  bg-[#8873ef] absolute top-0 left-0 bg-opacity-40 
                             z-20  hidden group-hover:block ">
                                 <div className=" w-full h-full flex items-center justify-center" >
-                                    <button className=" text-white px-4 py-2  hover:bg-[#193256] bg-[#081e21]
+                                    <button onClick={()=>showModalHandler(item.id)} 
+                                     className=" text-white px-4 py-2  hover:bg-[#193256] bg-[#081e21]
                                      rounded ease-in duration-200 font-[500]"
                                     >See Details</button>
                                 </div>
@@ -77,9 +87,9 @@ const Portfolio = () => {
                           font-[500]" >Load More
                         </button>
                     }
-
                 </div>
             </Container>
+            {showModal && <Modal setShowModal={setShowModal} activeId={activeId} />}
         </section>
     )
 }
