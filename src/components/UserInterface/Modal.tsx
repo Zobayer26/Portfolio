@@ -37,13 +37,13 @@ const Modal: React.FC<ModalType> = ({ activeId, setShowModal }) => {
                         ))}
                     </div>
                     <div className="flex items-center gap-8">
-                    <a href="#">
+                    <a href={portfolio?.siteUrl}>
                         <button className="text-white py-2 px-4 my-8 rounded-md font-[500] 
                         bg-[#8873ef] hover:bg-[#081e21]  ease-in duration-300">
                         Live Site
                         </button>    
                     </a>
-                    <a href="#">
+                    <a href={portfolio?.github}>
                         <button className="text-white py-2 px-4 my-8 rounded-md font-[500] 
                         bg-[#8873ef] hover:bg-[#081e21]  ease-in duration-300">
                         GitHub

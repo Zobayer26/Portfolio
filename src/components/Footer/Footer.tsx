@@ -44,6 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="text-center text-white font-[500]">Copyright © Zobayer Hossain. All rights reserved.</div>
       </Container>
     </footer>
   )

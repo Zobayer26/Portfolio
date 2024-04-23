@@ -42,8 +42,8 @@ const Hero = () => {
                 className=" flex items-baseline gap-2 font-[500] text-[15px] text-[#081e21] leading-7
                    sm:pl-14 sm:pr-10 mt-12 text-justify">
                 <span><RiAppsLine /></span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                autem molestiae sed repudiandae obcaecati quod vitae dolor quaerat iste facilis
+                Brief description with insights into myself,
+                career path, and professional activities.
               </p>
               <div className="flex items-center mt-14 gap-8 text-[#193256]">
                 <span className=" text-[15px] font-[600]">Follow me:</span>

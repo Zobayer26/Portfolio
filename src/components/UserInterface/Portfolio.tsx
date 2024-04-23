@@ -25,12 +25,16 @@ const Portfolio = () => {
         if (selectTab === 'all') {
             setPortfolioData(portfolios)
         }
-        if (selectTab === 'web-design') {
-            const filterData = portfolios.filter(item => item.category === 'Web Design')
+        if (selectTab === 'Frontend') {
+            const filterData = portfolios.filter(item => item.category === 'Frontend')
             setPortfolioData(filterData)
         }
-        if (selectTab === 'ux-design') {
-            const filterData = portfolios.filter(item => item.category === 'Ux')
+        if (selectTab === 'Full-stack') {
+            const filterData = portfolios.filter(item => item.category === 'Full-stack')
+            setPortfolioData(filterData)
+        }
+        if (selectTab === 'Games') {
+            const filterData = portfolios.filter(item => item.category === 'Games')
             setPortfolioData(filterData)
         }
     }, [selectTab])
@@ -47,15 +51,18 @@ const Portfolio = () => {
                          py-2 px-4 rounded hover:bg-[#193256] hover:text-white  ease-in duration-150">All
 
                         </button>
-                        <button onClick={() => setSelectTab('web-design')}
+                        <button onClick={() => setSelectTab('Frontend')}
                             className="text-[#193256] border border-solid border-[#193256]
-                         py-2 px-4 rounded hover:bg-[#193256] hover:text-white  ease-in duration-150">Web
+                         py-2 px-4 rounded hover:bg-[#193256] hover:text-white  ease-in duration-150">Frontend
 
                         </button>
-                        <button onClick={() => setSelectTab('ux-design')}
+                        <button onClick={() => setSelectTab('Full-stack')}
                             className="text-[#193256] border border-solid border-[#193256]
-                         py-2 px-4 rounded hover:bg-[#193256] hover:text-white ease-in duration-150"> ui/ux
-
+                         py-2 px-4 rounded hover:bg-[#193256] hover:text-white ease-in duration-150">Full Stack
+                        </button>
+                        <button onClick={() => setSelectTab('Games')}
+                            className="text-[#193256] border border-solid border-[#193256]
+                         py-2 px-4 rounded hover:bg-[#193256] hover:text-white ease-in duration-150">Games
                         </button>
                     </div>
                 </div>
@@ -63,6 +70,9 @@ const Portfolio = () => {
                     {portfolioData?.slice(0, nextItems)?.map((item) => (
                         <div key={item.id} data-aos="fade-zoom-in" data-aos-delay="50" data-aos-duration="1000"
                             className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative  z-10">
+                           <div className=" w-1/3 bg-orange-400 text-white font-[600] text-center rounded-md ">
+                                {item.type}
+                            </div>
                             <figure>
                                 <img className="rounded-md"
                                     src={item.imgUrl} alt="" />

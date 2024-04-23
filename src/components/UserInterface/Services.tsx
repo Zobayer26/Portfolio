@@ -12,9 +12,9 @@ const Services = () => {
                         </h2>
                         <p className="lg:max-w-[600px] lg:mx-auto font-[500] text-[#081e21]
                          text-[16px] leading-7">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Consequuntur ex illo perferendis, optio dolorum nesciunt
-                            quia tempore deleniti praesentium repellendus at animi facere, voluptatum molestiae? Iusto dicta rem vitae temporibus?
+                    Full Stack Development services encompass both frontend and backend expertise,
+                    ensuring seamless integration, robust functionality, and optimal performance 
+                    for your digital ecosystem.
                         </p>
                     </div>
                     <div className=" flex flex-col justify-center sm:py-12">

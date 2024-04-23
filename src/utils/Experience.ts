@@ -26,7 +26,7 @@ export const Experience = [
         end: 6,
         duration: 2,
         suffix: "+",
-        info: " Month's of experience"
+        info: " Happy Clients"
 
     },
     {
