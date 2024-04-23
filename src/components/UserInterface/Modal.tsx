@@ -52,9 +52,9 @@ const Modal: React.FC<ModalType> = ({ activeId, setShowModal }) => {
                     </div>
                 </div>
                 <button  onClick={()=>setShowModal(false)}
-                className="w-[28px] h-[28px] bg-white absolute top-[27px] 
+                className="w-[28px] h-[28px] bg-[#081e21] text-white absolute top-[27px] 
                 right-[27px] text-[25px] flex items-center justify-center rounded-sm 
-                 leading-0 cursor-pointer ">
+                 leading-0 cursor-pointer hover:bg-[#193256] ease-in duration-200  ">
                     &times;
                 </button>
             </div>
