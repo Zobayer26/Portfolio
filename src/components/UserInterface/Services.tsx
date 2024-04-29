@@ -12,9 +12,9 @@ const Services = () => {
                         </h2>
                         <p className="lg:max-w-[600px] lg:mx-auto font-[500] text-[#081e21]
                          text-[16px] leading-7">
-                    Full Stack Development services encompass both frontend and backend expertise,
-                    ensuring seamless integration, robust functionality, and optimal performance 
-                    for your digital ecosystem.
+                            Full Stack Development services encompass both frontend and backend expertise,
+                            ensuring seamless integration, robust functionality, and optimal performance
+                            for your digital ecosystem.
                         </p>
                     </div>
                     <div className=" flex flex-col justify-center sm:py-12">
@@ -36,8 +36,11 @@ const Services = () => {
                                                         Frontend Development
                                                     </h3>
                                                     <p className=" text-[15px] leading-7  text-justify">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                                                        nemo aut porro dolor odit voluptatibus magni suscipit quis aliquid repellendus
+
+                                                        I'm deeply passionate about creating captivating and intuitive web experiences.
+                                                        With a versatile skill set in frontend development, I excel in HTML, CSS, JavaScript,
+                                                        and frameworks like React.js, NextJs. My approach revolves around creative problem-solving,
+                                                        aiming to enhance user journeys with seamless navigation and captivating interfaces
                                                     </p>
                                                 </div>
                                             </div>
@@ -65,8 +68,11 @@ const Services = () => {
                                                         Backend Development
                                                     </h3>
                                                     <p className=" text-[15px] leading-7  text-justify">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                                                        nemo aut porro dolor odit voluptatibus magni suscipit quis aliquid repellendus
+                                                        I'm driven by the challenge of building robust and efficient backend
+                                                        solutions that power seamless user experiences. With a strong foundation
+                                                        in backend technologies such as Node.js, MySQL, Mongodb and postgresql I bring a versatile
+                                                        skill set to the table. My approach to backend development is grounded in
+                                                        problem-solving and scalability,where I strive to optimize performance and reliability
                                                     </p>
                                                 </div>
                                             </div>

@@ -21,9 +21,8 @@ const Footer = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <p className="text-justify text-gray-300 leading-7 mt-4 sm:mt-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-              reiciendis! Aliquid nemo ratione quisquam odio tempora, debitis
-              beatae soluta
+            Let's bring your ideas to life! Reach out to discuss potential collaborations 
+            or projects.
             </p>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
               <span className="text-gray-300 font-[600] text-[16px]">Follow Me:</span>
