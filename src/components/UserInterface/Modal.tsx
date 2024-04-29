@@ -22,7 +22,7 @@ const Modal: React.FC<ModalType> = ({ activeId, setShowModal }) => {
                     <h2 className="text-2xl text-[#081e21] font-[700] my-5">
                         {portfolio?.title}
                     </h2>
-                    <p className=" text-[15px] leading-7 text-[#193256]">
+                    <p className=" text-[15px] leading-7 text-[#193256] text-justify">
                         {portfolio?.description}
                     </p>
                     <div className="mt-5 flex items-center gap-3 flex-wrap">
